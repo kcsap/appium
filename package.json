@@ -30,7 +30,7 @@
     "clean": "run-s clean:artifacts clean:packages clean:monorepo",
     "clean:artifacts": "run-s clean:distfiles clean:types && npx rimraf \"packages/*/build\"",
     "clean:distfiles": "npx rimraf \"packages/*/build/**/*.js\"",
-    "clean:monorepo": "npx rimraf node_modules package-lock.json",
+    "clean:monorepo": "npx rimraf node_module",
     "clean:packages": "lerna clean -y && npx rimraf \"packages/*/package-lock.json\"",
     "clean:types": "tsc -b --clean",
     "dev": "run-p dev:*",
