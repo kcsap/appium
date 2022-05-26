@@ -34,7 +34,7 @@
     "test:unit": "mocha \"./test/unit/**/*.spec.js\""
   },
   "dependencies": {
-    "fast-xml-parser": "3.21.1",
+    "fast-xml-parser": "4.0.7",
     "xmldom": "0.6.0",
     "xpath": "0.0.32"
   },
